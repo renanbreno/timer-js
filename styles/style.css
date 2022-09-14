@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-cron {
+    display: block; 
+}
+
+.form-hours {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-hours-cron {
+    font-size: 2rem;
+}
+
+.form-buttons .btn {
+    height: 60px;
+    width: 60px;
+    font-size: 1rem;
+    border-radius: 60px;
+    border: 2px solid black;
+    background-color: #fafafa;
+    color: black;
+}
